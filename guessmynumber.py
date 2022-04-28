@@ -23,6 +23,6 @@ for i in range(5):
 
 #The game is over. Recap winning or losing
 if guess == number:
-    print("\nCongratulations, " + name + "! You guessed my  number in " + str(count) + " tries!")
+    print("\nCongratulations, " + name + "! You guessed my number in " + str(count) + " tries!")
 else:
     print("\nGame Over! I was thinking of " + str(number) + ".")
